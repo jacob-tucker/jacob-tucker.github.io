@@ -1,83 +1,19 @@
-.content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.navbar {
+  position: fixed;
+  top: 0;
+  margin: 0;
+
+  width: 100%;
+  height: 75px;
 }
 
-.nav_bar {
-    width: 100%;
-    height: 80px;
-
-    position: fixed;
-    top: 0;
-    margin: 0;
-
-    font-weight: 700;
-
-    background-color: lightblue;
-}
 .nav_bar_element {
     float: left;
     height: 100%;
 }
 
-/* LOGO / LINK TO HOMEPAGE */
-.nav_bar_left {
-    width: 25%;
-}
-.nav_bar_left h2 {
-    font-weight: 700;
-    font-size: 30px;
-    color: var(--text-color);
-    margin: 21px 0px 21px 20px;
-}
-
-/* NAV PANE */
-.nav_bar_center {
-    width: 50%;
-}
 .page_links {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.page_links h4 {
-    margin: 0;
-    font-weight: 700;
-    font-size: 17px;
-    color: var(--text-color);
-}
-
-.page_links a {
-    margin: 30px 5%;
-}
-
-#page_links_mobile {
-    display: none;
-}
-.page_links_mobile {
-    width: 100%;
-    position: fixed;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--background-color)
-}
-
-.page_links_mobile h4 {
-    display: inline-block;
-    margin: 0;
-    margin-left: 20px;
-    margin-right: auto;
-    font-weight: 700;
-    font-size: 17px;
-    margin-bottom: 15px;
-    color: var(--text-color);
+  width: 30%;
+  height: 100%;
+  justify-content: center;
 }
