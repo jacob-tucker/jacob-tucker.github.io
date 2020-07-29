@@ -30,11 +30,11 @@ p {
   margin: 0;
   font-size: 60px;
   color: white;
-  margin-right: 15%;
+  margin-right: 10%;
 }
 
 .project1 {
-  width: 75%;
+  width: 85%;
   margin: 200px 0px 0px 15%;
 }
 
@@ -53,6 +53,13 @@ p {
   max-height: 100%;
 }
 
+/* When the screen width is less than 1300 this will take effect */
+@media all and (max-width: 1300px) {
+    .summaryBlock{
+        width: 535px;
+    }
+}
+
 .summaryBlock h3{
   margin-top: 4%;
   margin-left: 6%;
@@ -66,13 +73,13 @@ p {
   font-size: 16px;
 }
 
-.summaryBlock p:nth-child(3){
+#code {
   margin-top: 10px;
   color: lightblue;
 }
 
 .highlights h2{
-  margin-top: 30%;
+  margin-top: 25%;
   left: 5%;
   width: 50%;
 }
