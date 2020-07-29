@@ -66,6 +66,11 @@ p {
   font-size: 16px;
 }
 
+.summaryBlock p:nth-child(3){
+  margin-top: 10px;
+  color: lightblue;
+}
+
 .highlights h2{
   margin-top: 30%;
   left: 5%;
