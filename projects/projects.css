@@ -1,0 +1,57 @@
+p {
+  color: lightgrey;
+}
+
+.project1 img {
+  width: 500px;
+  height: auto;
+  max-width: 60%;
+  max-height: 75%;
+}
+
+.content1 {
+  position: relative;
+  top: 100px;
+  left: 15%;
+}
+
+.content1 h1{
+  margin: 0;
+  font-size: 60px;
+  color: white;
+  margin-right: 15%;
+}
+
+.project1 {
+  margin: 200px 0px 0px 125px;
+}
+
+.project1 img {
+  float: left;
+}
+
+.summaryBlock {
+  margin-top: 20px;
+  margin-left: -20px;
+  background: rgb(173, 216, 230, .4);
+  float: left;
+  width: 500px;
+  height: 200px;
+  max-width: 72.5%;
+  max-height: 100%;
+}
+
+.summaryBlock h3{
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 40px;
+}
+
+.summaryBlock p {
+  margin-top: 0;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
