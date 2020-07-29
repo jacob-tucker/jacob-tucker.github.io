@@ -15,6 +15,11 @@ p {
   margin-bottom: 0;
 }
 
+#project2{
+  text-align: right;
+  margin-right: 15%;
+}
+
 .project1 p{
   margin-top: 0;
 }
@@ -34,7 +39,7 @@ p {
 }
 
 .project1 {
-  width: 85%;
+  width: 80%;
   margin: 200px 0px 0px 15%;
 }
 
@@ -53,14 +58,27 @@ p {
   max-height: 100%;
 }
 
+.summaryBlock2 {
+  position: relative;
+  margin-top: 2%;
+  margin-right: -2%;
+  background: rgb(173, 216, 230, .4);
+  float: left;
+  width: 500px;
+  height: 200px;
+  max-width: 94.5%;
+  max-height: 100%;
+  z-index: 2;
+}
+
 /* When the screen width is less than 1300 this will take effect */
 @media all and (max-width: 1300px) {
-    .summaryBlock{
+    .summaryBlock, .summaryBlock2{
         width: 535px;
     }
 }
 
-.summaryBlock h3{
+.summaryBlock h3, .summaryBlock2 h3{
   margin-top: 4%;
   margin-left: 6%;
   margin-bottom: 1%;
@@ -68,7 +86,7 @@ p {
   font-size: 40px;
 }
 
-.summaryBlock p {
+.summaryBlock p, .summaryBlock2 p {
   margin: 0 6% 0 6%;
   font-size: 16px;
 }
