@@ -13,7 +13,7 @@
 
     </head>
 
-    <body onresize="resize()">
+    <body>
 
         <div class='nav_bar'>
 
@@ -23,7 +23,7 @@
 
             <div class='nav_bar_element nav_bar_right'>
                 <div class='page_links'>
-                    <a><p>01.</p><h4>___</h4></a>
+                    <a href='../index.html'><p>01.</p><h4>ABOUT ME</h4></a>
                     <a href='#'><p>02.</p><h4>PROJECTS</h4></a>
                     <a><p>03.</p><h4>CONTACT</h4></a>
                     <a><p>04.</p><h4>RESUME</h4></a>
@@ -35,84 +35,32 @@
         <div class="content1">
           <h1>02. Projects</h1>
         </div>
-        <div class="project1">
-          <h2>Search Algorithm Tool</h2>
-          <p>July 2020</p>
-          <img src="../gifs/searchalg.gif" />
-          <div class="summaryBlock">
-            <h3>Summary</h3>
-            <p>I built a search algorithm web app that helps users learn about graph search algorithms such as Dijkstra's and
-            A*, with built in tools such as auto-generating mazes, the ability to add walls, and more.</p>
-
-            <p id="code">React HTML CSS Javascript</p>
-          </div>
-          <div class="highlights">
-            <h2>HIGHLIGHTS</h2>
-            <p>•Used React.js to combine the style and formatting of the HTML & CSS with the graph-search and maze creating
-            algorithms, which were written in Javascript.</p>
-            <p>•Implemented React.js using hooks that handeled the state of the walls, the nodes currently being searched,
-              the discovered nodes, and the start & end points simultaneously.</p>
-            <p>•Wrote 5 graph traversal algorithms, including A*, Dijkstra (w and w/o a Binary Heap),
-              Greedy Best-First Search, and Depth-First Search using priority queues and other data structures.</p>
-            <p>•Programmed a maze generator using recursive divison along with a random maze generator.</p>
-          </div>
-          <div class="description">
-            <h2>DESCRIPTION</h2>
-            <p>As I entered the Summer of 2020, I had just completed my first year of Computer Science at Northwestern.
-            I knew I was extremely interested in Computer Science, and I wanted to test my skills to see if I had what it takes,
-            having no idea what real computer science was all about. I ended up sitting down one day trying to find a project
-            idea and hopefully implement it over the next few weeks. After seeing many different ideas online and not
-            liking the vast majority, I decided to test my fate with this graph-search algorithm tool.</p>
-
-            <p>The reason a sort of "tool" grabbed my eye was because I've always wanted to try and look into how
-            programmers can help other programmers get into the field. Sometimes it is daunting to hear the words
-            used by Computer Scientists, and especially after having just taken a class on Data Structures in the Spring,
-            I knew how difficult it could be. Second, because I knew I wanted to continue on my web programming path,
-            I knew this project could combine HTML, CSS, and JS with React in the perfect way.</p>
-
-            <p>This project allows users to choose any algorithm they want and watch it run. The application shows the user
-            when it is discovering a node in real-time and then proceeds to show the "shortest" path (whether or not the
-            algorithm guarentees a shortest path is also explained to the user). A help menu is provided to explain any
-            difficult vocabulary, such as "weighted" and "unweighted" algorithms.</p>
-
-            <p>To make things more clear, the user can add walls with a click of the mouse or drag the mouse across the board.
-            This way, the user can truly see the power/weaknesses of each algorithm in how they deal with weights (or walls).
-            The user also has the ability to move the start and end node around to test more use cases.</p>
-          </div>
-      </div>
-      <div class="project1">
-        <div id="project2">
-          <h2>EasyTalk v2</h2>
-          <p>May-June 2020</p>
+        <div class="projectlist">
+          <a href="./searchalgorithmtool.html">
+            <div class="project1list">
+              <h2>Search Algorithm Tool</h2>
+              <p class="sums">A web application that helps users learn about graph search algorithms with built in tools
+                such as auto-generating mazes, the ability to add walls, and more.</p>
+              <p class="codes">React HTML CSS Javascript</p>
+            </div>
+          </a>
+          <a href="./easytalkv2.html">
+            <div class="project1list">
+              <h2>EasyTalkv2</h2>
+              <p class="sums">Chat application that allows users to send messages simultaneously and pick up conversations
+              from where they left off at any time, along with the ability to personally customize the design.</p>
+              <p class="codes">React Node.js Express Socket.io NoSQL Axios</p>
+            </div>
+          </a>
+          <a href="./musiclife.html">
+            <div class="project1list">
+              <h2>MusicLife</h2>
+              <p class="sums">Social media network geared towards people who want to share and discuss their love
+              for music through communities, while also maintaining personalized libraries and playlists.</p>
+              <p class="codes">React Redux Firebase</p>
+            </div>
+          </a>
         </div>
-        <div class="summaryBlock2">
-          <h3>Summary</h3>
-          <p>I built a chat application that allows users to send messages simultaneously and pick up conversations
-          from where they left off at any time, along with the ability to personally customize the design.</p>
-
-          <p id="code">React Node.js Express Socket.io AWS NoSQL Axios</p>
-        </div>
-        <img src="../gifs/easytalk2.gif" />
-        <div class="highlights">
-          <h2>HIGHLIGHTS</h2>
-          <p>•Messages sent back and forth instantaneously through WebSockets (using Socket.io library), via a Node.js server using the Express library, hosted on Heroku.</p>
-          <p>•User can continue conversations at any time, enabled by retrieving user profiles and chat conversations stored on a NoSQL MongoDB Atlas cluster, using AWS as the cloud provider.</p>
-          <p>•Enabled user personalization by giving users the ability to change the styling of their chat, which is kept using React hooks.</p>
-          <p>•Axios library used to make simple GET/POST requests from React front end to Node.js server.
-          <p>•Implemented JSON authentication tokens stored through browser cookies that prevent 3rd party data interference, using a built Restful API.</p>
-
-        </div>
-        <div class="description">
-          <h2>DESCRIPTION</h2>
-          <p>As I entered the Summer of 2020, I had just completed my first year of Computer Science at Northwestern.
-          I knew I was extremely interested in Computer Science, and I wanted to test my skills to see if I had what it takes,
-          having no idea what real computer science was all about. I ended up sitting down one day trying to find a project
-          idea and hopefully implement it over the next few weeks. After seeing many different ideas online and not
-          liking the vast majority, I decided to test my fate with this graph-search algorithm tool.</p>
-
-
-        </div>
-    </div>
     </body>
 
 </html>

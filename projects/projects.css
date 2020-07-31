@@ -36,6 +36,7 @@ p {
   font-size: 60px;
   color: white;
   margin-right: 10%;
+  margin-bottom: 150px;
 }
 
 .project1 {
@@ -73,8 +74,12 @@ p {
 
 /* When the screen width is less than 1300 this will take effect */
 @media all and (max-width: 1300px) {
-    .summaryBlock, .summaryBlock2{
+    .summaryBlock{
         width: 535px;
+    }
+    .summaryBlock2{
+      width: 535px;
+      margin-left: -2%;
     }
 }
 
@@ -114,4 +119,82 @@ p {
 .description p {
   width: 1000px;
   max-width: 85%;
+}
+
+.projectlist{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15%;
+}
+
+.project1list {
+  position: relative;
+  width: 325px;
+  height: 325px;
+  background: rgb(44,107,122);
+  border-radius: 5px;
+  float: left;
+}
+
+a{
+  margin: 0% 1% 2% 1%;
+}
+
+.project1list h2{
+  position: relative;
+  font-weight: 800;
+  font-size: 20px;
+  top: 25%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  color: white;
+  font-family: 'Arial'
+}
+
+.sums {
+  position: relative;
+  top: 25%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  font-family: 'Arial'
+  color: grey;
+}
+
+.codes{
+  position: absolute;
+  bottom: 10%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  font-size: 13px;
+  font-family: 'Arial';
+  color: lightblue;
+}
+
+.project1list:hover {
+  transform: translateY(-10px);
+  cursor: default;
+}
+
+.arrow1{
+  position: absolute;
+  left: 14%;
+  top: 14%;
+}
+
+.arrow2{
+  position: absolute;
+  left: 75%;
+  top: 14%;
+}
+
+.arrow1 img {
+  width: 100px;
+  height: 100px;
+  transform: rotateZ(180deg)
+}
+
+.arrow2 img {
+  width: 100px;
+  height: 100px;
 }
