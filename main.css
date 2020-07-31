@@ -9,8 +9,8 @@ h2 a {
 }
 
 .content {
-  position: relative;
-  top: 120px;
+  position: absolute;
+  top: 20%;
   left: 10%;
   width: 90%;
 }
@@ -53,10 +53,11 @@ h2 a {
 }
 
 .nav_bar h2 {
-
+    position: relative;
+    min-width: 400px;
     font-weight: 700;
     font-size: 30px;
-    margin-left: 2%;
+    left: 2%;
 }
 
 .page_links {
