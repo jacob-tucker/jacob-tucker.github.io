@@ -35,3 +35,25 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+function yourfunction() {
+    if(localStorage.getItem('counter') === null){
+      localStorage.setItem('counter', 1)
+    }
+    if(localStorage.getItem('counter') == 1){
+      document.getElementById('loader-wrapper').style.animation = "intro 1.25s ease-in forwards";
+      document.getElementById('span1').style.animation = "intro1 .25s 0s ease-in forwards";
+      document.getElementById('span2').style.animation = "intro2 .25s .25s ease-in forwards";
+      document.getElementById('span3').style.animation = "intro3 .25s .5s ease-in forwards";
+      document.getElementById('span4').style.animation = "intro4 .25s .75s ease-in forwards";
+      localStorage.setItem('counter', 2)
+    }
+
+
+}
+
+window.onload = yourfunction;
+window.onbeforeunload = function () {
+    localStorage.removeItem('counter')
+};
