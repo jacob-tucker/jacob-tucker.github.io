@@ -1,0 +1,47 @@
+.contact-title{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.contact-title h1{
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Arial';
+}
+
+.contact-title p{
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  width: 600px;
+  max-width: 75%;
+  font-family: 'Arial';
+  color: rgb(215,215,215);
+  line-height: 30px;
+}
+
+.contact-title button{
+  background: rgb(14,77,92, .6);
+  border-color: lightblue;
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 30px;
+  border-radius: 5px;
+  width: 150px;
+  height: 75px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(173, 216, 230);
+}
+
+.contact-title a{
+  position: absolute;
+  top: 50%;
+  text-align: center;
+}
