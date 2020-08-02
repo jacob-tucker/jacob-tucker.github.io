@@ -98,6 +98,7 @@ p {
 
 #code {
   margin-top: 10px;
+  font-size: 14px;
   color: lightblue;
 }
 
@@ -163,6 +164,16 @@ p {
   margin-left: 7.5%;
   margin-right: 7.5%;
   font-size: 13px;
+  font-family: 'Arial';
+  color: lightblue;
+}
+
+.codes2{
+  position: absolute;
+  bottom: 10%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  font-size: 11px;
   font-family: 'Arial';
   color: lightblue;
 }
