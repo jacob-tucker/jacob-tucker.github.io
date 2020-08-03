@@ -327,6 +327,7 @@ span:nth-child(3){
   font-size: 70px;
   display: flex;
   justify-content: center;
+  animation: intro 1.25s ease-in forwards;
 }
 
 @keyframes intro {
@@ -349,6 +350,7 @@ span:nth-child(3){
   top: 20%;
   background: white;
   left: 20%;
+  animation: intro1 .25s 0s ease-in forwards;
 }
 
 @keyframes intro1{
@@ -366,6 +368,7 @@ span:nth-child(3){
   top: 20%;
   background: white;
   left: 78%;
+  animation: intro2 .25s .25s ease-in forwards;
 }
 
 @keyframes intro2{
@@ -383,6 +386,7 @@ span:nth-child(3){
   top: 78%;
   background: white;
   right: 20%;
+  animation: intro3 .25s .5s ease-in forwards;
 }
 
 @keyframes intro3{
@@ -401,6 +405,7 @@ span:nth-child(3){
   bottom: 20%;
   background: white;
   left: 20%;
+  animation: intro4 .25s .75s ease-in forwards;
 }
 
 @keyframes intro4{
