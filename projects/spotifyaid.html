@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <title>Jacob Tucker</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='stylesheet' href='../main.css'>
+    <link rel='stylesheet' href='./projects.css'>
+    <script type='text/javascript' src='../main.js'></script>
+
+</head>
+
+<body>
+
+    <div class='nav_bar' id="navbar">
+        <h2><a href='../index.html'>JT</a></h2>
+        <div class='page_links'>
+            <a href='../index.html'>
+                <p>01.</p>
+                <h4>ABOUT ME</h4>
+            </a>
+            <a href='./projects.html'>
+                <p>02.</p>
+                <h4>PROJECTS</h4>
+            </a>
+            <a href='../contact/contact.html'>
+                <p>03.</p>
+                <h4>CONTACT</h4>
+            </a>
+            <a target="_blank" href='../gifs/resume.pdf'>
+                <p>04.</p>
+                <h4>RESUME</h4>
+            </a>
+        </div>
+        <a class="mobile_stuff" id="spans" onclick="doIt()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <!-- Navbar part of slider -->
+        <div class="slider" id="mobile_selector"></div>
+    </div>
+
+    <!-- Main part of slider -->
+    <div class="slider2" id="mobile_selector2">
+        <p>01.</p>
+        <a href='../index.html'>
+            <h4>ABOUT ME</h4>
+        </a>
+        <p>02.</p>
+        <a href='./projects.html'>
+            <h4>PROJECTS</h4>
+        </a>
+        <p>03.</p>
+        <a href='../contact/contact.html'>
+            <h4>CONTACT</h4>
+        </a>
+        <p>04.</p>
+        <a target="_blank" href='../gifs/resume.pdf'>
+            <h4>RESUME</h4>
+        </a>
+    </div>
+
+    <div>
+        <a class="arrow1" href='./projects.html'><img src='../gifs/arrow.png' /></a>
+    </div>
+    <div class="project1">
+        <div id="project2">
+            <h2>SpotifyAid</h2>
+            <p>August 2020</p>
+        </div>
+        <div class="summaryBlock2">
+            <h3>Summary</h3>
+            <p>I built a spotify aid that shows users their top artists & tracks, allows users to
+                view statistical data about their favorite songs, artists, and albums, and more.
+            </p>
+
+            <p id="code">React Sass Node.js Spotify Web API Axios</p>
+        </div>
+        <img src="../gifs/spotifyaid.gif" />
+        <div class="highlights">
+            <h2>KEY POINTS</h2>
+            <p>•Built a spotify tool that allows users to view & manage their profile, which shows
+                users their playlists, followers, the artists they follow, their tracks, and more.
+            </p>
+            <p>•Made GET/POST requests with Axios to the Spotify Web API to retreive statistical data on
+                any track a user would like to look up, along with their own top tracks & artists.
+            </p>
+            <p>•Handeled user authentication tokens in Node.js by making GET/POST requests to Spotify's REST API,
+                and passing the authorized tokens through headers in Axios, which are also stored in
+                browser cookies to prevent malicious logins.
+            </p>
+            <p>•Learned & utilized Sass to make styling much more structured and clear, and tied it to
+                a React.js front-end.
+            </p>
+
+        </div>
+        <div class="description">
+            <h2>DESCRIPTION</h2>
+            <p>While participating in a Open World Builders bootcamp during late July and August of 2020,
+                I knew I wanted to try and complete one more project before school started, so I could
+                enter school which multiple projects that I could touch up on and re-style over time.
+                I also wanted to further solidify my knowledge of working with REST APIs all while learning Sass,
+                which I had heard was a great way to structure your CSS.
+            </p>
+            <p>I knew I wanted to to something with music because it's a great way to tie many components
+                together. I could have the ability to try and prove my formatting & styling skills with React.js
+                and Sass
+                while working with Spotify's wonderful Web API, which has great explanations of how to get
+                started. As a bonus, I had been listening to music over quarantine with my dad,
+                and I would love to make something music related for him.
+            </p>
+            <p>I watched a Dev Ed tutorial on youtube (he is one of my favorite people ever) on Sass and began
+                working with it. My knowledge of React.js has been greatly increased over the summer and this
+                project would be yet another way to improve. After building the server in Node.js and
+                running npx create-react-app in my terminal for the 100th time this summer, I began to
+                work away.
+            </p>
+            <p>SpotifyAid is a great tool to have alongside the data Spotify already provides you. With SpotifyAid
+                you can easily view all of your top tracks & artists and get a sense of what kind of music you love.
+                Each
+                track and artist has statistical data on its popularity, genre, and other specific stats such as
+                energy, liveliness, and more. You can also look up any track you want to see how it compares to
+                the songs you already listen to and love.
+
+            </p>
+
+        </div>
+    </div>
+    <div class="bottominfo" id="bottominfo">
+        <a href='https://github.com/jacob-tucker/' target='_blank' class="githublogomain">
+            <img src='../gifs/githublogo.png' />
+        </a>
+        <a href='https://www.linkedin.com/in/jacob-tucker-7435221b1/' target='_blank' class="linkedinlogomain">
+            <img src='../gifs/linkedinlogo2.png' />
+        </a>
+        <a href='mailto: jacobtucker2023@u.northwestern.edu' class="emaillogomain">
+            <img src='../gifs/emailicon.png' />
+        </a>
+    </div>
+</body>
+
+</html>
