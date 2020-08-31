@@ -250,6 +250,24 @@ span:nth-child(3){
   }
 }
 
+.skills {
+  position: relative;
+  left: 50px;
+  width: 425px;
+  height: 75px;
+}
+
+.skills1st, .skills2nd {
+  display: flex;
+}
+
+.skills1st p, .skills2nd p {
+  font-size: 15px;
+  color: white;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
 .slider2 a, .slider2 p {
   display: flex;
   justify-content: center;
@@ -438,4 +456,11 @@ span:nth-child(3){
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media all and (max-width: 675px) {
+  .skills {
+    position: relative;
+    left: 0px;
+  }
 }
