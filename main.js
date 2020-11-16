@@ -35,3 +35,59 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 }
+
+function fillNavForProjects() {
+  const navDiv = document.getElementById('navbar')
+  navDiv.innerHTML = `<h2><a href='../index.html'>JT</a></h2>
+  <div class='page_links'>
+    <a href='../index.html'>
+      <p>01.</p>
+      <h4>ABOUT ME</h4>
+    </a>
+    <a href='./projects.html'>
+      <p>02.</p>
+      <h4>PROJECTS</h4>
+    </a>
+    <a href='../experience/experience.html'>
+      <p>03.</p>
+      <h4>EXPERIENCE</h4>
+    </a>
+    <a href='../contact/contact.html'>
+      <p>04.</p>
+      <h4>CONTACT</h4>
+    </a>
+    <a target="_blank" href='../gifs/resume.pdf'>
+      <p>05.</p>
+      <h4>RESUME</h4>
+    </a>
+  </div>
+  <a class="mobile_stuff" id="spans" onclick="doIt()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+  <!-- Navbar part of slider -->
+  <div class="slider" id="mobile_selector"></div>`
+
+  const secondNavDiv = document.getElementById('mobile_selector2')
+  secondNavDiv.innerHTML = `<p>01.</p>
+  <a href='../index.html'>
+    <h4>ABOUT ME</h4>
+  </a>
+  <p>02.</p>
+  <a href='./projects.html'>
+    <h4>PROJECTS</h4>
+  </a>
+  <p>03.</p>
+  <a href='../experience/experience.html'>
+    <h4>EXPERIENCE</h4>
+  </a>
+  <p>04.</p>
+  <a href='../contact/contact.html'>
+    <h4>CONTACT</h4>
+  </a>
+  <p>05.</p>
+  <a target="_blank" href='../gifs/resume.pdf'>
+    <h4>RESUME</h4>
+  </a>`
+}

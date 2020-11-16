@@ -93,6 +93,8 @@ h2 a {
     font-weight: 700;
     font-size: 30px;
     left: 2%;
+    margin: auto 0px;
+    z-index: 5;
 }
 
 .page_links {
@@ -123,7 +125,7 @@ h2 a {
   color: lightgrey;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 700px) {
     .page_links a{
       display: none;
     }
@@ -132,7 +134,7 @@ h2 a {
 .mobile_stuff{
   position: absolute;
   top: 40%;
-  height: 50%;
+  height: 40px;
   width: 5%;
   left: 95%;
   display: none;
@@ -209,7 +211,7 @@ span:nth-child(3){
   }
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 700px){
   .mobile_stuff{
     display: flex;
   }

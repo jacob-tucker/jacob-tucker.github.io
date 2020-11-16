@@ -1,0 +1,50 @@
+.experience_title {
+    position: relative;
+    top: 150px;
+    left: 15%;
+    width: 85%;
+}
+
+.experience_title h1 {
+    margin: 0;
+    font-size: 60px;
+    color: white;
+    margin-right: 10%;
+    margin-bottom: 150px;
+}
+
+.main_experience {
+    position: relative;
+    top: 50px;
+    margin: 0px 15%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.decentology .information a {
+    color: white;
+}
+
+.decentology .information {
+    position: relative;
+    color: lightgrey;
+    left: 10px;
+}
+
+.decentology .information h2, .decentology .information h3 {
+    margin: 10px 0px;
+}
+
+.decentology img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.description {
+    color: lightgrey;
+}
