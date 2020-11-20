@@ -11,13 +11,13 @@ const doIt = () => {
     }
   }
   if (element.children[0].classList.contains("hello")) {
-    element2.style.visibility = 'visible';
+    element2.style.display = 'block';
     element2.classList.add('showIt');
-    element3.style.visibility = 'visible';
+    element3.style.display = 'block';
     element3.classList.add('showIt');
   } else {
-    element2.style.visibility = 'hidden';
-    element3.style.visibility = 'hidden';
+    element2.style.display = 'none';
+    element3.style.display = 'none';
   }
 
 }

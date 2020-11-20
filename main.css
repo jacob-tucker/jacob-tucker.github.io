@@ -220,7 +220,7 @@ span:nth-child(3){
 .slider{
   top: 0;
   position: fixed;
-  visibility: hidden;
+  display: none;
   height: 100%;
   left: 50%;
   width: 50%;
@@ -230,7 +230,7 @@ span:nth-child(3){
 .slider2{
   top: 11%;
   position: fixed;
-  visibility: hidden;
+  display: none;
   height: 100%;
   left: 50%;
   width: 50%;
