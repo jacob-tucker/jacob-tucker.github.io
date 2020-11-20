@@ -145,7 +145,7 @@ h2 a {
 
 .mobile_stuff > span{
   height: 5%;
-  width: 100%;
+  width: 25px;
   background: lightblue;
   position: absolute;
 }
