@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <title>Jacob Tucker</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='stylesheet' href='../main.css'>
+  <link rel='stylesheet' href='./projects.css'>
+  <script type='text/javascript' src='../main.js'></script>
+
+</head>
+
+<body>
+
+  <div class='nav_bar' id="navbar">
+
+  </div>
+
+  <!-- Main part of slider -->
+  <div class="slider2" id="mobile_selector2">
+
+  </div>
+
+  <div>
+    <a class="arrow2" href='./projects.html'><img src='../gifs/arrow.png' /></a>
+  </div>
+  <div class="project1">
+    <h2>ReKt</h2>
+    <p>February-March 2021</p>
+    <img src="../gifs/rekt.gif" />
+    <div class="summaryBlock">
+      <h3>Summary</h3>
+      <p>A decentralized application where users can upload and view their favorite gaming moments
+        on the blockchain. </p>
+
+      <p id="code">Web3 Solidity IPFS Infura React Redux Sass</p>
+    </div>
+    <div class="highlights">
+      <h2>KEY POINTS</h2>
+      <p>• Connected Metamask wallet to React front-end using Web3, allowing users to sign transactions with
+        test Ethereum on the Ropsten Test Network.</p>
+      <p>• Wrote and deployed smart contract in Solidity onto the Ethereum Ropsten Test Network that handles
+        the uploading of moments to the blockchain, separates them into different categories, and handles
+        the storage of moments in users' accounts.</p>
+      <p>• Stored all videos on IPFS, a decentralized storage network that converts videos into
+        unique hashes, allowing the smart contract to only store a hash which we can use to retrieve our moments.
+      </p>
+      <p>• Utilized Infura to easily handle API access to Ethereum and IPFS.</p>
+
+    </div>
+    <div class="description">
+      <h2>DESCRIPTION</h2>
+      <p>In the past few months, I have become increasingly involved in the blockchain space. I joined
+        Decentology in September 2020 which confirmed my investment in the industry. Ever since joining the team,
+        I have served as the lead Cadence developer, which is the smart contract language for the Flow blockchain.
+      </p>
+      <p>As I grew as a blockchain developer, I know I wanted to learn Solidity, the smart contract language
+        for Ethereum. I also wanted to get introduced to Web3, IPFS, and Infura, which are all essential
+        tools to dApp development. Fortunately, I had the idea to tie this to the endless amounts of video
+        games that I play. My friends and I wanted to have a place to showcase our gaming moments,
+        and I thought it would be cool to introduce them to blockchain in the process. The result was ReKt.
+      </p>
+      <p>On ReKt, you can upload your gaming moment by selecting the game, adding a name, and confirming
+        a transaction. This all happens on the Ropsten Test Network, which is perfect for dApps like these because
+        it doesn't require actual money. After uploading, your moment if forever stored on IPFS, which the program
+        uses to store all the moments.
+      </p>
+      <p>You can view all recently uploaded videos on the Home page, view your moments by clicking on your
+        profile icon, view other's moments by clicking on their address under each moment, or search moments
+        by category under the Games tab. Additionally, you can find your blockchain address in the navigation
+        bar at the top. If you have any awesome gaming moments (or any that you're proud of), be sure to upload them
+        so everyone can enjoy it!
+      </p>
+
+      <div class="description">
+        <h2>SETUP</h2>
+        <p>In order to be able to use the ReKt application at rekt.netlify.app, there are a few
+          steps you need to take first. These are listed here:
+        </p>
+        <p>1) Install <a href="https://metamask.io/" target="_blank"
+            style="outline: 0; color: orange; text-decoration: none;">MetaMask</a> on a
+          browser of your choice that
+          supports it.</p>
+        <p>2) Setup your wallet in MetaMask.</p>
+        <p>3) Select "Ropsten Test Network" under the Networks tab at the top of your
+          MetaMask google chrome extension.
+        </p>
+        <p>4) Refresh the page and enjoy!</p>
+
+        <p>Note: In order to get test Ethereum into your MetaMask wallet on the Ropsten Test Network
+          so you can sign transactions and upload videos onto the blockchain,
+          Go to the <a href="https://faucet.ropsten.be/" target="_blank"
+            style="outline: 0; color: #00d1b2; text-decoration: none;">Ropsten Faucet</a>, copy and paste your MetaMask
+          address into the text input, and hit "Send me Test Ether."
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="bottominfo" id="bottominfo">
+    <a href='https://github.com/jacob-tucker/' target='_blank' class="githublogomain">
+      <img src='../gifs/githublogo.png' />
+    </a>
+    <a href='https://www.linkedin.com/in/jacob-tucker-7435221b1/' target='_blank' class="linkedinlogomain">
+      <img src='../gifs/linkedinlogo2.png' />
+    </a>
+    <a href='mailto: jacobtucker2023@u.northwestern.edu' class="emaillogomain">
+      <img src='../gifs/emailicon.png' />
+    </a>
+  </div>
+</body>
+
+<script>
+  fillNavForProjects();
+</script>
+
+</html>
