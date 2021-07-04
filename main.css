@@ -35,6 +35,11 @@ h2 a {
   margin-right: 15%;
 }
 
+.content a {
+  color: peachpuff;
+  text-decoration: none;
+}
+
 .all{
   display: flex;
   flex-wrap: wrap;
