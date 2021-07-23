@@ -27,8 +27,9 @@
 }
 
 .contact-title button{
-  background: rgb(14,77,92, .6);
-  border-color: lightblue;
+  background: white;
+  border: 0;
+  outline: 0;
   font-family: 'Arial';
   font-weight: 500;
   font-size: 30px;
@@ -37,7 +38,7 @@
   height: 75px;
   cursor: pointer;
   text-decoration: none;
-  color: rgb(173, 216, 230);
+  color: rgb(44, 187, 235);
 }
 
 .contact-title a{
