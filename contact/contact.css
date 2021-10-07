@@ -9,7 +9,7 @@
   position: absolute;
   top: 15%;
   text-align: center;
-  color: white;
+  color: rgb(14,77,92);
   font-size: 50px;
   font-weight: 800;
   font-family: 'Arial';
@@ -22,12 +22,12 @@
   width: 600px;
   max-width: 75%;
   font-family: 'Arial';
-  color: rgb(215,215,215);
+  color: rgb(14,77,92);
   line-height: 30px;
 }
 
 .contact-title button{
-  background: white;
+  background: rgb(96, 140, 234);
   border: 0;
   outline: 0;
   font-family: 'Arial';
@@ -38,7 +38,7 @@
   height: 75px;
   cursor: pointer;
   text-decoration: none;
-  color: rgb(44, 187, 235);
+  color: white;
 }
 
 .contact-title a{

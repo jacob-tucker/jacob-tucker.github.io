@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(34,97,112);
+  background-color: rgb(235, 235, 235);
 }
 
 h2 a {
-  color: lightblue;
+  color: mediumslateblue;
   outline: 0;
   text-decoration: none;
 }
@@ -14,24 +14,17 @@ h2 a {
   min-width: 50%;
 }
 
-.content p{
-  font-size: 16px;
-  color: lightgrey;
+.content li{
+  font-size: 22px;
+  color: rgb(44,107,122);
   width: 600px;
   max-width: 75%;
 }
 
-.content h1{
+.content h1, h2 {
   margin: 0;
   font-size: 60px;
-  color: white;
-  margin-right: 15%;
-}
-
-.content h2 {
-  margin: 0;
-  font-size: 60px;
-  color: lightgrey;
+  color: rgb(96, 140, 234);
   margin-right: 15%;
 }
 
@@ -43,9 +36,8 @@ h2 a {
 .all{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 200px;
   justify-content: center;
-  margin-bottom: 15%;
 }
 
 .imugly{
@@ -58,6 +50,7 @@ h2 a {
 
 .superamazingprofilepic{
   width: 400px;
+  object-fit: cover;
   min-width: 400px;
   min-height: 400px;
   height: 400px;
@@ -75,8 +68,10 @@ h2 a {
     z-index: 3;
     display: flex;
     font-weight: 700;
-    background: rgb(24,87,102);
-    transition: top 0.3s;
+    background: rgb(235, 235, 235);
+    justify-content: center;
+    align-items: center;
+
 }
 .nav_bar2 {
     width: 100%;
@@ -88,27 +83,14 @@ h2 a {
     z-index: 3;
     display: flex;
     font-weight: 700;
-    background: rgb(24,87,102);
+    background: rgb(235, 235, 235);
     transition: top 0.3s;
 }
 
-.nav_bar h2, .nav_bar2 h2 {
-    position: relative;
-    min-width: 400px;
-    font-weight: 700;
-    font-size: 30px;
-    left: 2%;
-    margin: auto 0px;
-    z-index: 5;
-}
-
 .page_links {
-  position: absolute;
   display: flex;
-  top: 35%;
-  min-width: 100%;
-  margin-left: -2.5%;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .page_links h4, .page_links p{
@@ -119,15 +101,12 @@ h2 a {
 
 .page_links a {
     display: flex;
+    margin: 0 20px;
     text-decoration: none;
 }
 
-.page_links p {
-  color: lightblue;
-}
-
 .page_links h4 {
-  color: lightgrey;
+  color: rgb(44,107,122);
 }
 
 @media all and (max-width: 700px) {
@@ -151,7 +130,7 @@ h2 a {
 .mobile_stuff > span{
   height: 5%;
   width: 25px;
-  background: lightblue;
+  background: rgb(44,107,122);
   position: absolute;
 }
 
@@ -308,7 +287,7 @@ span:nth-child(3){
   align-items: center;
 }
 .githublogomain img{
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(0);
   width: 35px;
   height: 35px;
 }
@@ -319,7 +298,7 @@ span:nth-child(3){
 }
 
 .linkedinlogomain img{
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(0);
   width: 35px;
   height: 35px;
 }
@@ -330,7 +309,7 @@ span:nth-child(3){
 }
 
 .emaillogomain img{
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(0);
   width: 50px;
   height: 35px;
 }
@@ -341,7 +320,7 @@ span:nth-child(3){
 }
 
 .twitterlogomain img{
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(0);
   width: 70px;
   height: 70px;
 }

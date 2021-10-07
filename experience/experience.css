@@ -8,7 +8,7 @@
 .experience_title h1 {
     margin: 0;
     font-size: 60px;
-    color: white;
+    color: rgb(44,107,122);
     margin-right: 10%;
     margin-bottom: 150px;
 }
@@ -27,17 +27,18 @@
 }
 
 .decentology .information a {
-    color: white;
+    color: rgb(7, 206, 206);
 }
 
 .decentology .information {
     position: relative;
-    color: lightgrey;
+    color: rgb(95, 165, 211);
     left: 10px;
 }
 
 .decentology .information h2, .decentology .information h3 {
     margin: 10px 0px;
+    color: rgb(95, 165, 211);
 }
 
 .decentology img {
@@ -54,11 +55,10 @@
 }
 
 .description {
-    color: lightgrey;
+    color: rgb(44,107,122);
     font-size: 20px;
 }
 
 .description a {
-    color: peachpuff;
     text-decoration: none;
 }
