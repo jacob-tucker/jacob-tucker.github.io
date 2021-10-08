@@ -10,7 +10,7 @@ p {
 }
 
 .project1 h2{
-  color: lightgrey;
+  color: rgb(44,107,122);
   position: relative;
   margin-bottom: 0;
 }
@@ -22,6 +22,12 @@ p {
 
 .project1 p{
   margin-top: 0;
+  color: rgb(44,107,122);
+}
+
+#project1date {
+  color: rgb(95, 165, 211);
+  font-size: 20px;
 }
 
 .content1 {
@@ -51,7 +57,7 @@ p {
 .summaryBlock {
   margin-top: 2%;
   margin-left: -2%;
-  background: rgb(173, 216, 230, .4);
+  background: rgb(44,107,122, .4);
   float: left;
   width: 500px;
   height: 200px;
@@ -63,7 +69,7 @@ p {
   position: relative;
   margin-top: 2%;
   margin-right: -2%;
-  background: rgb(173, 216, 230, .4);
+  background: rgb(44,107,122, .4);
   float: left;
   width: 500px;
   height: 200px;
@@ -94,17 +100,23 @@ p {
 .summaryBlock p, .summaryBlock2 p {
   margin: 0 6% 0 6%;
   font-size: 16px;
+  color: white;
 }
 
 #code {
   margin-top: 10px;
-  font-size: 14px;
-  color: lightblue;
+  font-size: 17px;
+  color: rgb(42, 100, 138);
 }
 
-.highlights h2{
+.highlights h2 {
+  font-size: 30px;
   margin-top: 25%;
   width: 50%;
+}
+
+.description h2 {
+  font-size: 30px;
 }
 
 .highlights p, .description p {
